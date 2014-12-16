@@ -1,12 +1,8 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
-//All the classes inherit from a super-class. When no super-class is specified, as
-//in the Complex example of previous section, scala.AnyRef is implicitly used.
-
-//It is possible to override inherited methods 
-//It is mandatory to explicitly specify that  using the override modifier, 
-
-object _5c_Classes_InheritanceAndOverriding {
+//In the previous project it was necessary to use empty parenthesis to access to call the methods.
+//This project explains the methods without arguments or how to access to this data as if they were fo;es
+object _5b_Classes_MethodWithoutArguments {
 //  This complex class takes two arguments, which are the real and imaginary part of the complex. 
 	class Complex(real: Double, imaginary: Double) {
 //		The class contains two methods without arguments
@@ -14,12 +10,12 @@ object _5c_Classes_InheritanceAndOverriding {
 //		return type of these two methods is not given explicitly.
 		def re = real
 		def im = imaginary
-		//overriding an inherited method
-		override def toString() ="" + re + (if (im < 0) "" else "+") + im + "i"
 	}
 	def main (args: Array[String]){
 		//These arguments must be passed when creating an instance of class Complex, as follows: 
 		var c = new Complex(1.5, 2.3)
 		println(c toString)
+		//Accessing throguh methods without parameters, as if they were methods
+		println(c.re +"+i"+ c.im)
 	}
 }

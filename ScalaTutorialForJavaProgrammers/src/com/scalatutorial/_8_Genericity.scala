@@ -1,4 +1,4 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
 //Genericity is the ability to write code parametrized by types.
 //For example, a programmer writing a library for linked lists faces the problem of deciding which type

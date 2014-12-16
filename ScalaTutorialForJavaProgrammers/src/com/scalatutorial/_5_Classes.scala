@@ -1,4 +1,4 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
 //Classes in Scala are declared using a syntax which is close to Java syntax.
 object _5_Classes {

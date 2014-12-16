@@ -1,4 +1,4 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
 object _3_NumbersAreObjects {
 	def main (args: Array[String]){

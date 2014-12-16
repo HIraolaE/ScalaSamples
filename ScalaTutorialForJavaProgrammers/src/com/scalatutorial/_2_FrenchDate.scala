@@ -1,4 +1,4 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
 //Importing java libraries
 

@@ -1,4 +1,4 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
 //Functions are also objects in Scala.
 //It is  possible to pass them as arguments, to store them in variables,

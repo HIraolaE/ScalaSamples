@@ -1,4 +1,4 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
 //object declaration is a "singleton" declaration
 // It created the the _1_HelloWorld class and one instance of that class.

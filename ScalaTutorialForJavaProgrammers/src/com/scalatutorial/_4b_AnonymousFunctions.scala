@@ -1,4 +1,4 @@
-package com.ceadar.scalatutorial
+package com.scalatutorial
 
 //the function timeFlies is only defined in order to be passed later to the
 //oncePerSecond function. 
